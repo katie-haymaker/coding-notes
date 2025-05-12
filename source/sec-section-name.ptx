@@ -3,6 +3,151 @@
 <section xml:id="sec-section-name" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Section Title</title>
 
-  <p> Text of section. </p>
+  <p> This practice text includes an <em>emphasized</em> text. I <q>am quoting</q> now. Sine is written in <m>\sin(x)</m>. Next we have an equation
+  <me>
+    \sin^2(x)+\cos^2(x)=1
+  </me>.
+  </p>
+ <p>
+        Content. but i don't know how to make a Practice Box. How?? 
 
+      </p>
+
+  <exploration><title>My exploration</title>
+    
+    <task>
+      <statement>
+        <p>
+          Write a paragraph of text that includes an <em>emphasized</em> word, a <q>quoted</q> word, and inline math using a variable like 
+ <m>x</m> or <m>y</m>.
+        </p>
+      </statement>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+          Write the definition of a term inside a paragraph (not as a numbered definition). A <term>snark</term> is a mix of a snake and a shark. 
+        </p>
+      </statement>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+        Write a paragraph that includes a math equation on a displayed line.
+        <me>
+          f(x)=\begin{cases} 0 \amp x \lt 0 \\ 
+                            1\amp x\geq 0
+                            \end{cases}
+        </me>
+      </p>
+      </statement>
+      <solution>
+        <p>
+          Use \amp in place of the ampersand in math mode! 
+        </p>
+      </solution>
+    </task>
+  </exploration>
+
+  <example>
+    <title>This example shows lists</title>
+    <p>
+      We are now going to give an ordered list of animals: 
+      <ol>
+        <li>
+        Dog
+          
+        </li>
+         <li>
+          
+            Cat
+          
+        </li>
+         <li>
+          
+            Chincilla
+          
+        </li>
+      </ol>
+    </p>
+    <p>
+      We are now going to give an unordered list of numbers: 
+      <ul>
+        <li>
+          
+            <m>e</m>
+          
+        </li>
+         <li>
+          
+            <m>\pi</m>
+          
+        </li>
+         <li>
+          
+            <m>\tau</m>
+          
+        </li>
+      </ul>
+    </p>
+  </example>
+
+  <activity>
+    <p>
+      Next trying to use the array math environment: 
+      <me>
+        \begin{array}{c|c|c} 1 \amp 2 \amp 3 \\ \hline
+        4 \amp 5 \amp 6
+        \end{array}
+      </me>
+      
+    </p>
+
+    <p>
+      And the tabular in pretext: 
+      <tabular>
+  <col right="medium" /><col right="medium" /><col /> 
+  <row bottom="medium">
+    <cell>1</cell>
+    <cell>2</cell>
+    <cell>3</cell>
+  </row>
+  <row>
+    <cell>4</cell>
+    <cell>5</cell>
+    <cell>6</cell>
+  </row>
+</tabular>
+    </p>
+  </activity>
+
+<p> Next I would like to introduce you to the following important definition. 
+</p>
+
+<definition xml:id="def-statement"> 
+  <statement>
+    <p>
+      A <term>statement</term> is a box that lives inside of another box. 
+    </p>
+  </statement>
+</definition>
+
+<p>
+  But that should have been a lemma. 
+</p>
+
+<lemma xml:id="lem-">
+  <statement>
+    <p>
+      A <term>statement</term> is a box that lives inside of another box. 
+    </p>
+  </statement>
+  <proof>
+    <p>
+      By Definition <xref ref="def-statement"/>
+    </p>
+  </proof>
+</lemma>
 </section>
