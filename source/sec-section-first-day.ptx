@@ -16,16 +16,35 @@
       </p>
     </statement>
   </exercise>
-  
-  <figure xml:id="doenet-example">
-  
-<interactive label="interactive-label" platform="doenetml" width="100%" aspect="2:8">
-  <slate surface="doenetml">
-    <xi:include parse="text" href="doenet/example.doenetml"/> 
-  </slate>
-</interactive>
-  <caption>This is a doenet figure</caption>
-  </figure>
-  </section>
 
-  
+ <figure xml:id="doenet-example">
+  <interactive label="interactive-label" platform="doenetml" width="100%" aspect="2:8">
+    <slate surface="doenetml">
+    <xi:include parse="text" href="doenet/example.doenetml"/>
+    </slate> </interactive> 
+    <caption> This is a doenet figure </caption>
+  </figure>
+
+  <p>
+ Throughout this course,   messages will often be represented as strings of 0s and 1s. One way to conceptualize turning the Latin alphabet into strings of 0s and 1s is to use ASCII (American Standard Code for Information Interchange): 
+    <men>
+ A  \to 01000001 
+    </men>
+    <men>
+ B  \to 01000010 
+    </men>
+    <men>
+ \vdots 
+    </men>
+    <men>
+ Z  \to 01011010 
+    </men>
+  </p>
+
+  <p>
+ So, for example, the word VILLANOVA would be written as: 
+    <men>
+ 01010110 01001001 01001100 01001100 01000001 01001110 01001111 01010110 01000001 
+    </men>
+  </p>
+</section>
