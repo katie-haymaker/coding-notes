@@ -7,4 +7,6 @@
     <p> Coding theory intro. </p>
   </introduction>
 
+  <!-- include sections -->
+  <xi:include href="sec-section-first-day.ptx" />
   </chapter>

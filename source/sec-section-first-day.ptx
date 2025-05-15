@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-section-first-day" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>First day activities</title>
+
+  <introduction>
+    <p>
+      Introduction
+    </p>
+  </introduction>
+
+  <exercise>
+    <statement>
+      <p>
+        Is this working?
+      </p>
+    </statement>
+  </exercise>
+  
+  <figure xml:id="doenet-example">
+  
+<interactive label="interactive-label" platform="doenetml" width="100%" aspect="2:8">
+  <slate surface="doenetml">
+    <xi:include parse="text" href="doenet/example.doenetml"/> 
+  </slate>
+</interactive>
+  <caption>This is a doenet figure</caption>
+  </figure>
+  </section>
+
+  

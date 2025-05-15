@@ -1,0 +1,5 @@
+<m> f(x)=<function name="f">|x|</function> </m>
+
+<graph> <function copySource="f" domain="[-2,2]"></function>
+   <derivative> $f </derivative>
+</graph>

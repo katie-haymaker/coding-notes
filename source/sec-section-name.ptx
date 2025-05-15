@@ -150,4 +150,14 @@
     </p>
   </proof>
 </lemma>
+
+<!--<figure xml:id="prefigure/sample.xml">
+  <caption>sample caption</caption>
+
+  <image width="60%">
+  <prefigure xmlns="https://prefigure.org"
+             label="prefigure-sample">
+  </prefigure>
+</image>
+</figure>-->
 </section>
